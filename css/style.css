@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+body {
+  padding-top: 3%;
+}
+#mobile {
+  border: 3px solid #dc3545;
+  /* border-radius: 15%; */
+  height: 75vh;
+}
+section::after {
+  content: "";
+  background-image: url("../quote-icon-png-5-up.jpg");
+  position: absolute;
+  height: 21%;
+  width: 15%;
+  background-position: center;
+  background-size: cover;
+  top: -5px;
+  left: -5px;
+}
+section::before {
+  content: "";
+  background-image: url("../quote-icon-png-5.jpg");
+  position: absolute;
+  height: 21%;
+  width: 15%;
+  background-position: center;
+  background-size: cover;
+  bottom: -5px;
+  right: -5px;
+}
+section {
+  border: 3px dotted black;
+  /* border-radius: 10%; */
+  padding: 20px;
+  position: relative;
+}
+h1,
+p,
+h2,
+button {
+  font-family: "Silkscreen", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
